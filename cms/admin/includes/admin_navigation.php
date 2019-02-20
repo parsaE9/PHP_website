@@ -38,15 +38,15 @@
                             class="fa fa-fw fa-arrows-v"></i> Posts <i class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="posts_dropdown" class="collapse">
                     <li>
-                        <a href="#">View all posts</a>
+                        <a href="posts.php">View all posts</a>
                     </li>
                     <li>
-                        <a href="#">Add post</a>
+                        <a href="posts.php?source=add_post">Add post</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                <a href="categories.php"><i class="fa fa-fw fa-wrench"></i> Categories</a>
             </li>
             <li class="active">
                 <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Comments</a>
