@@ -8,4 +8,6 @@ $_SESSION['user_role'] = null;
 
 header("location: ../index.php");
 
+echo "hello world!";
+
 ?>

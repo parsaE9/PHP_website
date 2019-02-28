@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a387d788-edf6-447d-a2ee-4abb3eeee7b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cms/includes/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/includes/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/admin/includes/admin_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/admin_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/admin/includes/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/edit_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/includes/sidebar.php" afterDir="false" />
-    </list>
+    <list default="true" id="a387d788-edf6-447d-a2ee-4abb3eeee7b9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cms/admin/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+            <state relative-caret-position="64">
+              <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -315,12 +305,12 @@
       <workItem from="1551257494279" duration="4885000" />
       <workItem from="1551292962584" duration="3235000" />
       <workItem from="1551342819022" duration="4346000" />
-      <workItem from="1551356074900" duration="3444000" />
+      <workItem from="1551356074900" duration="3553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131923000" />
+    <option name="totallyTimeSpent" value="132032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +323,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -678,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/admin/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        <state relative-caret-position="64">
+          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
         </state>
       </provider>
     </entry>
