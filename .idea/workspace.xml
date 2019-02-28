@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a387d788-edf6-447d-a2ee-4abb3eeee7b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cms/includes/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/includes/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin/includes/admin_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/admin_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/admin/includes/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/edit_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/admin/includes/view_all_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/view_all_users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/includes/sidebar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,46 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/admin/users.php">
+        <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cms/admin/includes/edit_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/admin/includes/edit_post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/admin/includes/view_all_users.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/admin/includes/add_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -78,8 +49,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="469">
+              <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cms/admin/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/admin/includes/edit_user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/includes/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/includes/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -94,6 +101,7 @@
       <find>$connection</find>
       <find>dash</find>
       <find>comment</find>
+      <find>parsa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,7 +122,6 @@
         <option value="$PROJECT_DIR$/Web.php" />
         <option value="$PROJECT_DIR$/GetGlobal.php" />
         <option value="$PROJECT_DIR$/Cookies.php" />
-        <option value="$PROJECT_DIR$/Class.php" />
         <option value="$PROJECT_DIR$/cms/includes/header.php" />
         <option value="$PROJECT_DIR$/cms/sidebar.php" />
         <option value="$PROJECT_DIR$/cms/includes/db.php" />
@@ -124,14 +131,11 @@
         <option value="$PROJECT_DIR$/cms/admin/includes/navigation.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/categories.php" />
-        <option value="$PROJECT_DIR$/cms/admin/index.php" />
         <option value="$PROJECT_DIR$/cms/admin/update_categories.php" />
-        <option value="$PROJECT_DIR$/cms/admin/includes/admin_header.php" />
         <option value="$PROJECT_DIR$/cms/admin/functions.php" />
         <option value="$PROJECT_DIR$/cms/admin/categories.php" />
         <option value="$PROJECT_DIR$/cms/admin/posts.php" />
         <option value="$PROJECT_DIR$/cms/comment.txt" />
-        <option value="$PROJECT_DIR$/cms/includes/sidebar.php" />
         <option value="$PROJECT_DIR$/cms/includes/navigation.php" />
         <option value="$PROJECT_DIR$/cms/category.php" />
         <option value="$PROJECT_DIR$/cms/admin/comments.php" />
@@ -141,12 +145,20 @@
         <option value="$PROJECT_DIR$/cms/post.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/view_all_posts.php" />
         <option value="$PROJECT_DIR$/cms/index.php" />
-        <option value="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" />
         <option value="$PROJECT_DIR$/cms/admin/users.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/add_user.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/edit_post.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/view_all_users.php" />
+        <option value="$PROJECT_DIR$/cms/includes/sidebar.php" />
+        <option value="$PROJECT_DIR$/Class.php" />
+        <option value="$PROJECT_DIR$/cms/includes/login.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/edit_user.php" />
+        <option value="$PROJECT_DIR$/cms/includes/logout.php" />
+        <option value="$PROJECT_DIR$/cms/admin/includes/admin_header.php" />
+        <option value="$PROJECT_DIR$/cms/includes/profile.php" />
+        <option value="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" />
+        <option value="$PROJECT_DIR$/cms/admin/index.php" />
+        <option value="$PROJECT_DIR$/cms/admin/profile.php" />
       </list>
     </option>
   </component>
@@ -171,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,18 +202,10 @@
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,9 +259,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.php" />
+        <item itemvalue="PHP Script.Class.php" />
         <item itemvalue="JavaScript Debug.categories.php" />
         <item itemvalue="JavaScript Debug.posts.php" />
-        <item itemvalue="PHP Script.Class.php" />
         <item itemvalue="JavaScript Debug.Class.php" />
       </list>
     </recent_temporary>
@@ -308,12 +313,14 @@
       <workItem from="1551113707575" duration="1362000" />
       <workItem from="1551177279710" duration="2996000" />
       <workItem from="1551257494279" duration="4885000" />
-      <workItem from="1551292962584" duration="3052000" />
+      <workItem from="1551292962584" duration="3235000" />
+      <workItem from="1551342819022" duration="4346000" />
+      <workItem from="1551356074900" duration="3444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123950000" />
+    <option name="totallyTimeSpent" value="131923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,7 +335,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18255034" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -455,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/admin/includes/footer.php" />
     <entry file="file://$PROJECT_DIR$/cms/admin/includes/header.php" />
     <entry file="file://$PROJECT_DIR$/cms/admin/includes/navigation.php" />
@@ -471,16 +471,6 @@
           <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/workingWithDatabase/DeleteDatabase.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,13 +501,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/comment.txt" />
-    <entry file="file://$PROJECT_DIR$/cms/includes/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/includes/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -536,13 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -581,27 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/includes/add_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/admin/posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -616,24 +571,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/edit_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cms/admin/includes/view_all_users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="972">
           <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/includes/edit_post.php">
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/add_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/includes/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="29" column="85" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/includes/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/includes/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/includes/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/admin/includes/edit_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="577">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -11,6 +11,11 @@ class Car{
 
 }
 
-$bmw = new Car(220, 4);
+/*$bmw = new Car(220, 4);
 $ferrari = new Car(260, 4);
-echo Car::$move;
+echo Car::$move;*/
+
+$a = 4;
+$b = 2;
+if($a <= $b)
+    echo "echo";
