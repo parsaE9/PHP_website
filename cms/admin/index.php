@@ -152,10 +152,10 @@
                         var data = google.visualization.arrayToDataTable([
                             ['Data', 'Count'],
                             <?php
-                            $element_text = ['Active Posts','Draft Posts','All Comments','Pending Comments','Categories','Users'];
-                            $element_count = [$post_counts,$draft_post_counts,$comment_counts,$unapproved_comments_counts,$category_counts,$user_counts];
+                            $element_text = ['Active Posts', 'Draft Posts', 'All Comments', 'Pending Comments', 'Categories', 'Users'];
+                            $element_count = [$post_counts, $draft_post_counts, $comment_counts, $unapproved_comments_counts, $category_counts, $user_counts];
 
-                            for($i = 0; $i <5 ; $i++){
+                            for ($i = 0; $i < 5; $i++) {
                                 echo "['{$element_text[$i]}'" . "," . "{$element_count[$i]}],";
                             }
 
