@@ -1,6 +1,46 @@
+<?php
+if(isset($_POST['checkBoxArray'])){
+    foreach($_POST['checkBoxArray'] as $postValueID){
+        $bulk_options = $_POST['bulk_options'];
+        switch ($bulk_options){
+            case "published":
+                $query = "UPDATE posts SET post_status = '{$bulk_options}' WHERE post_id = {$postValueID}";
+                mysqli_query($connection, $query);
+                break;
+            case "draft":
+                $query = "UPDATE posts SET post_status = '{$bulk_options}' WHERE post_id = {$postValueID}";
+                mysqli_query($connection, $query);
+                break;
+            case "delete":
+                $query = "DELETE FROM posts WHERE post_id = {$postValueID}";
+                mysqli_query($connection, $query);
+                break;
+        }
+    }
+}
+
+?>
+
+
+<form method="post" action="">
 <table class="table table-bordered table-hover">
+<div id="bulkOptionsContainer" class="col-xs-2">
+    <select class="form-control" id="" name="bulk_options">
+        <option value="">Select Option</option>
+        <option value="published">Published</option>
+        <option value="draft">Draft</option>
+        <option value="delete">Delete</option>
+    </select>
+</div>
+
+    <div>
+        <input type="submit" name="submit" class="btn btn-success" value="Apply">
+            <a class="btn btn-primary" href="posts.php?source=add_post">Add Post</a>
+    </div>
+
     <thead>
     <tr>
+        <th><input type="checkbox" id="selectAllBoxes"></th>
         <th>Id</th>
         <th>Author</th>
         <th>Title</th>
@@ -10,6 +50,7 @@
         <th>Tags</th>
         <th>Comments</th>
         <th>Date</th>
+        <th>View Post</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
@@ -32,6 +73,9 @@
         $post_date = $row["post_date"];
 
         echo "<tr>";
+        ?>
+    <td><input class="checkBoxes" type="checkbox" name="checkBoxArray[]" value="<?php echo $post_id; ?>"</td>
+    <?php
         echo "<td>$post_id</td>";
         echo "<td>$post_author</td>";
         echo "<td>$post_title</td>";
@@ -53,6 +97,7 @@
         echo "<td>$post_tag</td>";
         echo "<td>$post_comment_count</td>";
         echo "<td>$post_date</td>";
+        echo "<td><a href='../post.php?p_id={$post_id}'>View Post</a></td>";
         echo "<td><a href='posts.php?source=edit_post&p_id={$post_id}'>Edit</a></td>";
         echo "<td><a href='posts.php?delete={$post_id}'>Delete</a></td>";
         echo "</tr>";
@@ -61,6 +106,7 @@
     ?>
     </tbody>
 </table>
+</form>
 
 <?php
 if (isset($_GET['delete'])) {

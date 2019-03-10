@@ -70,13 +70,24 @@ if(isset($_POST['update_post'])){
     </div>
 
     <div class="form-group">
-        <label for="post_status">Post Status</label>
-        <input value="<?php echo $post_status; ?>" type="text" class="form-control" name="post_status">
+        <select name="post_status" id="">
+            <?php
+            if ($post_status == 'published'){
+                echo "<option value='published'>Published</option>";
+                echo "<option value='draft'>Draft</option>";
+            }
+            else{
+                echo "<option value='draft'>Draft</option>";
+                echo "<option value='published'>Published</option>";
+            }
+            ?>
+        </select>
     </div>
+
 
     <div class="form-group">
         <label for="post_image">Post Image</label>
-        <input type="file" name="image">
+        <input type="file" name="image" value="<?php echo $post_image; ?>">
     </div>
 
     <div class="form-group">
