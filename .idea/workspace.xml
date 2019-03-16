@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a387d788-edf6-447d-a2ee-4abb3eeee7b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cms/admin/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/author_posts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/admin/includes/admin_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/admin_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/admin/includes/view_all_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/includes/view_all_posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/admin/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/includes/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/post.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,38 +34,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/admin/includes/view_all_posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="122" column="53" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
+            <state relative-caret-position="2784">
+              <caret line="116" column="45" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/admin/posts.php">
+        <entry file="file://$PROJECT_DIR$/cms/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="24">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/post.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cms/admin/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+            <state relative-caret-position="432">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="n#insert_categories#0;n#!!top" />
+                <element signature="n#find_all_categories#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="130">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -93,6 +85,7 @@
       <find>dash</find>
       <find>comment</find>
       <find>parsa</find>
+      <find>home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Login2.php" />
         <option value="$PROJECT_DIR$/DeleteDatabase.php" />
         <option value="$PROJECT_DIR$/ReadFromDatabase.php" />
         <option value="$PROJECT_DIR$/UpdateDatabase.php" />
@@ -119,7 +111,6 @@
         <option value="$PROJECT_DIR$/cms/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/categories.php" />
         <option value="$PROJECT_DIR$/cms/admin/update_categories.php" />
-        <option value="$PROJECT_DIR$/cms/admin/functions.php" />
         <option value="$PROJECT_DIR$/cms/admin/categories.php" />
         <option value="$PROJECT_DIR$/cms/admin/posts.php" />
         <option value="$PROJECT_DIR$/cms/comment.txt" />
@@ -137,21 +128,23 @@
         <option value="$PROJECT_DIR$/cms/includes/logout.php" />
         <option value="$PROJECT_DIR$/cms/includes/profile.php" />
         <option value="$PROJECT_DIR$/cms/admin/profile.php" />
-        <option value="$PROJECT_DIR$/cms/admin/index.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/edit_post.php" />
         <option value="$PROJECT_DIR$/cms/admin/css/sb-admin.css" />
         <option value="$PROJECT_DIR$/cms/admin/includes/admin_footer.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/add_post.php" />
-        <option value="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" />
         <option value="$PROJECT_DIR$/cms/registration.php" />
         <option value="$PROJECT_DIR$/cms/includes/navigation.php" />
-        <option value="$PROJECT_DIR$/cms/index.php" />
         <option value="$PROJECT_DIR$/cms/author_posts.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/admin_header.php" />
         <option value="$PROJECT_DIR$/cms/admin/css/styles.css" />
-        <option value="$PROJECT_DIR$/cms/admin/js/scripts.js" />
         <option value="$PROJECT_DIR$/cms/post.php" />
+        <option value="$PROJECT_DIR$/cms/index_old.php" />
         <option value="$PROJECT_DIR$/cms/admin/includes/view_all_posts.php" />
+        <option value="$PROJECT_DIR$/cms/index.php" />
+        <option value="$PROJECT_DIR$/cms/admin/index.php" />
+        <option value="$PROJECT_DIR$/cms/admin/js/scripts.js" />
+        <option value="$PROJECT_DIR$/cms/admin/includes/admin_navigation.php" />
+        <option value="$PROJECT_DIR$/cms/admin/functions.php" />
       </list>
     </option>
   </component>
@@ -176,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,11 +188,17 @@
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,11 +320,14 @@
       <workItem from="1552294992540" duration="2858000" />
       <workItem from="1552328089529" duration="2344000" />
       <workItem from="1552393667461" duration="1846000" />
+      <workItem from="1552399099419" duration="87000" />
+      <workItem from="1552569351890" duration="2727000" />
+      <workItem from="1552729828336" duration="5324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159370000" />
+    <option name="totallyTimeSpent" value="167508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,8 +340,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20402685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -391,13 +395,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WorkingWithWeb/GetGlobal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -460,13 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -572,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/admin/css/sb-admin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
@@ -636,20 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/admin/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -657,38 +626,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="576">
           <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/posts.php">
+    <entry file="file://$PROJECT_DIR$/cms/index_old.php" />
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/view_all_posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="2784">
+          <caret line="116" column="45" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/admin/includes/view_all_posts.php">
+    <entry file="file://$PROJECT_DIR$/cms/admin/posts.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="122" column="53" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
+        <state relative-caret-position="586">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/includes/admin_navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="n#insert_categories#0;n#!!top" />
+            <element signature="n#find_all_categories#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

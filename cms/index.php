@@ -17,7 +17,24 @@
             </h1>
 
             <?php
-            $query = "SELECT * FROM posts WHERE post_status = 'published'";
+            if(isset($_GET['page'])){
+                $page = $_GET['page'];
+            }
+            else{
+                $page = "";
+            }
+            if($page == "" || $page == 1){
+                $page_1 = 0;
+            }
+            else{
+                $page_1 = $page * 3 - 3;
+            }
+
+            $find_posts_count = mysqli_query($connection, "SELECT * FROM posts");
+            $count = mysqli_num_rows($find_posts_count);
+            $count = ceil($count / 3);
+
+            $query = "SELECT * FROM posts WHERE post_status = 'published' LIMIT $page_1, 3";
             $select_all_posts_query = mysqli_query($connection, $query);
             while ($row = mysqli_fetch_assoc($select_all_posts_query)) {
                 $post_id = $row["post_id"];
@@ -60,5 +77,14 @@
     <!-- /.row -->
 
     <hr>
+
+    <ul class="pager">
+        <?php
+        for($i = 1; $i <= $count; $i++){
+            echo "<li><a href='index.php?page={$i}'>{$i}</a></li>";
+        }
+        ?>
+    </ul>
+
     <!-- Footer -->
 <?php include "includes/footer.php"; ?>
