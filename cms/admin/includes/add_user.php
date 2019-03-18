@@ -8,6 +8,11 @@ if(isset($_POST['create_user'])){
     $username = $_POST['username'];
     $user_email = $_POST['user_email'];
     $user_password = $_POST['user_password'];
+
+    $user_password = mysqli_real_escape_string($connection, $user_password);
+
+    $user_password = password_hash($user_password, PASSWORD_BCRYPT, array('cost' => 10));
+
     //$post_image = $_FILES['image']['name'];
     //$post_image_temp = $_FILES['image']['tmp_name'];
     //$post_date = date('d-m-y');

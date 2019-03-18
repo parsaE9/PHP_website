@@ -8,8 +8,8 @@
         <th>Status</th>
         <th>In Response To</th>
         <th>Date</th>
-        <th>Approved</th>
-        <th>UnApproved</th>
+        <th>Approve</th>
+        <th>UnApprove</th>
         <th>Delete</th>
     </tr>
     </thead>

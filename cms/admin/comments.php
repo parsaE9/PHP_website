@@ -18,18 +18,12 @@
                     </h1>
 
                     <?php
-                    if(isset($_GET['source'])){
+                    if (isset($_GET['source'])) {
                         $source = $_GET['source'];
-                    }else{
+                    } else {
                         $source = "";
                     }
-                    switch ($source){
-                        case 'add_post':
-                            include "includes/add_post.php";
-                            break;
-                        case 'edit_post':
-                            include "includes/edit_post.php";
-                            break;
+                    switch ($source) {
                         case 200:
                             echo "200 nice";
                             break;

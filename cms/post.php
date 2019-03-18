@@ -68,7 +68,7 @@
                 $comment_email = $_POST['comment_email'];
                 $comment_content = $_POST['comment_content'];
 
-                if (!empty($comment_author) && !empty($comment_content) && !empty(comment_email)) {
+                if (!empty($comment_author) && !empty($comment_content) && !empty($comment_email)) {
                     $query = "INSERT INTO comments(comment_post_id,comment_author,comment_email,comment_content,comment_status,comment_date) 
             VALUES ($the_post_id,'{$comment_author}','{$comment_email}','{$comment_content}','unapproved',now())";
                     $create_comment_query = mysqli_query($connection, $query);

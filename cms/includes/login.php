@@ -21,16 +21,15 @@ if(isset($_POST['login'])){
         $db_user_password = $row['user_password'];
     }
 
-    if($username != $db_username || $password != $db_user_password){
-        header("location:../index.php");
-    }
-    else{
+    if($username == $db_username && password_verify($password, $db_user_password)){
         $_SESSION['username'] = $db_username;
         $_SESSION['firstname'] = $db_user_lastname;
         $_SESSION['lastname'] = $db_user_firstname;
         $_SESSION['user_role'] = $db_user_role;
 
         header("location: ../admin/index.php");
+    }else{
+        header("location: ../index.php");
     }
 
 }
