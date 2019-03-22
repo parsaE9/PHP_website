@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['create_post'])){
+if (isset($_POST['create_post'])) {
     $post_title = $_POST['title'];
     $post_author = $_POST['author'];
     $post_category_id = $_POST['post_category'];
@@ -35,6 +35,7 @@ if(isset($_POST['create_post'])){
     </div>
 
     <div class="form-group">
+        <label for="category">Category</label>
         <select name="post_category" id="">
             <?php
             $query = "SELECT * FROM categories";
@@ -55,6 +56,7 @@ if(isset($_POST['create_post'])){
     </div>
 
     <div class="form-group">
+        <label for="post_status">Post Status</label>
         <select name="post_status" id="">
             <option value=''>Post Status</option>
             <option value='published'>Published</option>

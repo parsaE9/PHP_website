@@ -28,7 +28,7 @@ if (!$result)
     <div class="col-sm-6">
         <?php
 
-        while($row = mysqli_fetch_assoc($result)){
+        while($row = mysqli_fetch_array($result)){
             ?>
             <pre>
             <?php

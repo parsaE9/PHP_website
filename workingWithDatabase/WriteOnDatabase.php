@@ -42,6 +42,10 @@ if (isset($_POST["submit"])) {
 
 <div class="container">
     <div class="col-sm-6">
+        <h1><?php
+            ini_set('display_errors',1);
+            ini_set('display_startup_errors',1);
+            echo error_reporting(-1); ?></h1>
         <h1>Create</h1>
         <form action="WriteOnDatabase.php" method="post">
 
